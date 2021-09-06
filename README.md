@@ -5,3 +5,5 @@ This solution contains 3 projects :
 - GestformLibrary containing the class implementing the gestform algorithm.
 - GestformTest containing the unit tests of the library.
 - GestformApp containing the code of the graphic interface, written using the wpf technology.
+
+The executables for windows x86 and x64 are present in the release section of the Git.

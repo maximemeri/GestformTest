@@ -86,7 +86,7 @@
         </member>
         <member name="T:GestFormApp.Views.GestformView">
             <summary>
-            Logique d'interaction pour GestformView.xaml.
+            Interaction logic for GestformView.xaml.
             </summary>
             <summary>
             GestformView

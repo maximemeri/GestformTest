@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GestformLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:GestformLibrary.Gestform">
+            <summary>
+            Represent the impementation of the gestform algorithm.
+            </summary>
+        </member>
+        <member name="M:GestformLibrary.Gestform.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:GestformLibrary.Gestform"/> class.
+            </summary>
+        </member>
+        <member name="M:GestformLibrary.Gestform.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GestformLibrary.Gestform"/> class.
+            </summary>
+            <param name="p_size">The amount of int to cast with the gestform algorithm.</param>
+        </member>
+        <member name="P:GestformLibrary.Gestform.GestformResults">
+            <summary>
+            Gets the collection of random numbers and their associated values based on the gestform algorithm.
+            </summary>
+        </member>
+        <member name="M:GestformLibrary.Gestform.GenerateGestformResults(System.Int32)">
+            <summary>
+            Generate the <see cref="P:GestformLibrary.Gestform.GestformResults"/> collection of <see langword="int"/> keys and <see langword="string"/> values.
+            </summary>
+            <param name="p_size">the size of the lists.</param>
+        </member>
+        <member name="M:GestformLibrary.Gestform.CastIntToGestformValue(System.Int32)">
+            <summary>
+            Cast an <see langword="int"/> into a <see langword="string"/>.
+            </summary>
+            <param name="p_number">the <see langword="int"/> to cast.</param>
+            <returns>
+            the <see langword="string"/> casted with the value : "Geste" if multiple of 3, "Forme" if multiple of 5,
+            "Gestform" if both or the number if none.
+            </returns>
+        </member>
+        <member name="M:GestformLibrary.Gestform.IsMultiple3(System.Int32)">
+            <summary>
+            Check if the integer in parameter is a multiple of 3.
+            </summary>
+            <param name="p_number">The integer to check.</param>
+            <returns><see langword="true"/> if <paramref name="p_number"/> is a multiple of 3, otherwise <see langword="false"/>.</returns>
+        </member>
+        <member name="M:GestformLibrary.Gestform.IsMultiple5(System.Int32)">
+            <summary>
+            Check if the integer in parameter is a multiple of 5.
+            </summary>
+            <param name="p_number">The integer to check.</param>
+            <returns><see langword="true"/> if <paramref name="p_number"/> is a multiple of 5, otherwise <see langword="false"/>.</returns>
+        </member>
+    </members>
+</doc>

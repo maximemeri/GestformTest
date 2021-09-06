@@ -1,0 +1,15 @@
+﻿C:\Users\Maxime\source\repos\Gestform\GestFormApp\App.xaml
+C:\Users\Maxime\source\repos\Gestform\GestFormApp\App.xaml.cs
+C:\Users\Maxime\source\repos\Gestform\GestFormApp\AssemblyInfo.cs
+C:\Users\Maxime\source\repos\Gestform\GestFormApp\MainWindow.xaml.cs
+C:\Users\Maxime\source\repos\Gestform\GestFormApp\Models\GestformModel.cs
+C:\Users\Maxime\source\repos\Gestform\GestFormApp\ViewModels\GestformViewModel.cs
+C:\Users\Maxime\source\repos\Gestform\GestFormApp\Views\GestformView.xaml.cs
+C:\Users\Maxime\source\repos\Gestform\GestFormApp\Properties\PublishProfiles\FolderProfile.pubxml
+C:\Users\Maxime\source\repos\Gestform\GestFormApp\Resources\gestform_icon.ico
+C:\Users\Maxime\source\repos\Gestform\GestFormApp\Resources\gestform_logo.png
+C:\Users\Maxime\source\repos\Gestform\GestFormApp\MainWindow.xaml
+C:\Users\Maxime\source\repos\Gestform\GestFormApp\Views\GestformView.xaml
+C:\Users\Maxime\source\repos\Gestform\GestFormApp\gestform_icon.ico
+C:\Users\Maxime\source\repos\Gestform\GestFormApp\gestform_icon.png
+C:\Users\Maxime\source\repos\Gestform\GestFormApp\gestform_logo.png

@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GestFormApp</name>
+    </assembly>
+    <members>
+        <member name="T:GestFormApp.App">
+            <summary>
+            Interaction logic for App.xaml.
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:GestFormApp.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:GestFormApp.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:GestFormApp.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml.
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:GestFormApp.MainWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:GestFormApp.MainWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:GestFormApp.MainWindow.NumberValidationTextBox(System.Object,System.Windows.Input.TextCompositionEventArgs)">
+            <summary>
+            Validate input of a textbox to match only digits, not starting with 0.
+            </summary>
+            <param name="sender">The component.</param>
+            <param name="e">the event.</param>
+        </member>
+        <member name="M:GestFormApp.MainWindow.TextBoxNoSpaceKey(System.Object,System.Windows.Input.KeyEventArgs)">
+            <summary>
+            Prohibit space key input.
+            </summary>
+            <param name="sender">The component triggering the event.</param>
+            <param name="e">the event.</param>
+        </member>
+        <member name="M:GestFormApp.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:GestFormApp.Models.GestformModel">
+            <summary>
+            Model of the gestform algorithm.
+            </summary>
+        </member>
+        <member name="E:GestFormApp.Models.GestformModel.PropertyChanged">
+            <inheritdoc/>
+        </member>
+        <member name="P:GestFormApp.Models.GestformModel.GestformResults">
+            <summary>
+            Gets or sets the collection of random numbers and their associated values based on the gestform algorithm.
+            </summary>
+        </member>
+        <member name="T:GestFormApp.ViewModels.GestformViewModel">
+            <summary>
+            ViewModel of the gestform algorithm.
+            </summary>
+        </member>
+        <member name="P:GestFormApp.ViewModels.GestformViewModel.MyGestFormModel">
+            <summary>
+            Gets or sets model of the gestform algorithm.
+            </summary>
+        </member>
+        <member name="M:GestFormApp.ViewModels.GestformViewModel.LoadGestformModel(System.Int32)">
+            <summary>
+            Load a set of random <see langword="int"/> and their associated <see langword="string"/> values
+            base on the gestform algorithm.
+            </summary>
+            <param name="p_count">The amount of random numbers you want to run in the gestform algorithm.</param>
+        </member>
+        <member name="T:GestFormApp.Views.GestformView">
+            <summary>
+            Logique d'interaction pour GestformView.xaml.
+            </summary>
+            <summary>
+            GestformView
+            </summary>
+        </member>
+        <member name="M:GestFormApp.Views.GestformView.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:GestFormApp.Views.GestformView"/> class.
+            </summary>
+        </member>
+        <member name="M:GestFormApp.Views.GestformView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>
